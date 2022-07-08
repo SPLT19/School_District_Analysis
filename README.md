@@ -56,9 +56,9 @@ Images: Summary with altered grades in white, Summary without altered grades in 
 As seen in the following tables, regarding high and low performing schools, despite the overall percentage in Thomas high school had a difference of 3.1 between the two analysis Thomas high school still reached the top performing schools, even after removing the altered data and replace it with NaN. The change was no significative in the top five performance. 
 
 
-![Performance with altered grades](Pics\SchoolDataWithAlteredGrades.png)
+![Performance with altered grades](Pics/SchoolDataWithAlteredGrades.png)
 
-![Performance withouth altered grades](Pics\SchoolDataWithouthAlteredGrades.png)
+![Performance withouth altered grades](Pics/SchoolDataWithouthAlteredGrades.png)
 
 Tables: Performance with altered grades in white, Performance without altered grades in black
 
@@ -68,24 +68,25 @@ To understand where the impact of the altered grades was, further analysis was p
 - Average scores per grade
 Regarding scores per grade only Thomas High School ninth grade was affected as the data are replaced with NaN, the rest of the grades remain the same thus showing no impact on the school performance. 
 
-![MathScoreBySchoolAndGrades](Pics\MathScoreBySchoolAndGrades.png)
-![ReadingScorebySchoolAndGrades](Pics\ReadingScorebySchoolAndGrades.png)
+![MathScoreBySchoolAndGrades](Pics/MathScoreBySchoolAndGrades.png)
+![ReadingScorebySchoolAndGrades](Pics/ReadingScorebySchoolAndGrades.png)
 
 
 
 
 - Scores by school spending
 After categorizing spending bins and calculating the averages we could conclude that no significant change was seen. The budget per student reported by Thomas Highschool was $638.00 , which was not altered after cleaning the altered grades and replacing them with NaN as seen in the table of spending summary with spending ranges per student. Rest remained the same too. Its interesting that the budget does not affect the performance of the schools. This is not a factor that affects grades of students. 
-![SpendingRangesSummary](Pics\SpendingRangesSummary.png)
+![SpendingRangesSummary](Pics/SpendingRangesSummary.png)
 
 - Scores by school size
 Thomas High school was considered a Medium sized school with students between 1000-2000, modifying the ninth grades entries into NaN didn’t had an impact or modify the arrangement of the school size for this school. Rest remained the same too. 
 
-![ScoresBySchoolSize](Pics\ScoresBySchoolSize.png)
+![ScoresBySchoolSize](Pics/ScoresBySchoolSize.png)
 
 - Scores by school type
 Lastly school type had no alteration wither with the NaN replacement of the data for the ninth graders of Thomas High School. As the only modification in the data was done to the ninth grade and the scores and not with any characteristic of the rest of the school information, like type, or the rest of the grades. 
 
+![ScoresBySchoolType](Pics/ScoresBySchoolType.png)
 
 
 
