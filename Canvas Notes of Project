@@ -1,0 +1,59 @@
+Here is the list of deliverables for the analysis of the school district: 
+
+A high-level snapshot of the district's key metrics, presented in a table format
+An overview of the key metrics for each school, presented in a table format
+Tables presenting each of the following metrics:
+Top 5 and bottom 5 performing schools, based on the overall passing rate
+The average math score received by students in each grade level at each school
+The average reading score received by students in each grade level at each school
+School performance based on the budget per student
+School performance based on the school size 
+School performance based on the type of school
+
+/////
+
+Add the following values and columns to a new DataFrame named
+Total number of schools in the column "Total Schools"
+Total number of students in the column "Total Students"
+Total budget in the column "Total Budget"
+Average reading score in the column "Average Reading Score"
+Average math score in the column "Average Math Score"
+Percentage of students passing reading in the column "% Passing Reading"
+Percentage of students passing math in the column "% Passing Math"
+Overall passing percentage in the column "% Overall Passing"
+
+
+
+Pseudocode
+ # To get the passing percentages, we need to:
+ # 1. Determine what is the passing grade.
+ # 2. Get the number of students who passed math and reading.
+ # 3. Get the students who passed math and passed reading
+
+
+////////
+
+ Now that we have performed all the calculations needed for the school summary, we can add the following values to a new DataFrame named per_school_summary_df. The data and columns of the DataFrame will be:
+
+Type of school in the "School Type" column
+Total students per school in the "Total Students" column
+Total budget per school in the "Total School Budget" column
+Total budget per student for each school in the "Per Student Budget" column
+Average math score for each school in the "Average Math Score" column
+Average reading score for each school in the "Average Reading Score" column
+Percentage of students passing math for each school in the "% Passing Math" column
+Percentage of students passing reading for each school in the "% Passing Reading" column
+Overall passing percentage for each school in the "% Overall Passing" column
+
+
+
+CHALLENGE
+Background
+The school board has notified Maria and her supervisor that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to Maria for help. She has asked you to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once you’ve replaced the math and reading scores, Maria would like you to repeat the school district analysis that you did in this module and write up a report to describe how these changes affected the overall analysis.
+
+What You're Creating
+This new assignment consists of two technical analysis deliverables and a written report to present your results. You will submit the following:
+
+Deliverable 1: Replace ninth-grade reading and math scores
+Deliverable 2: Repeat the school district analysis
+Deliverable 3: A written report for the school district analysis (README.md)
