@@ -45,9 +45,9 @@ Note: Refer to the whole analysis in the ipynb [PyCitySchoolsNaN](PyCitySchools_
 Regarding the difference between the general analysis between data that includes the altered grade group and the data without the altered scores, we could see that there was no significant difference between them in regards to Average Math and reading scores with a difference of 0.1 specifically in average math score. Average reading score remained the same. 
 Regarding percentages between passing math and reading, difference between analysis were 0.2 in passing math percentage and and 0.3 in passing reading percentage. Overall passing percentages was 0.1 difference between them as seen in the images below. 
 
-![Summary with altered grades](Pics\AnalysisWithThomasNinthGrade.png)
+![Summary with altered grades](Pics/AnalysisWithThomasNinthGrade.png)
 
-![Summary withouth altered grades](Pics\AnalysisWitouthThomasNinthGrade.png)
+![Summary withouth altered grades](Pics/AnalysisWitouthThomasNinthGrade.png)
 Images: Summary with altered grades in white, Summary without altered grades in black
 
 
